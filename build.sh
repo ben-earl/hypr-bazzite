@@ -14,10 +14,9 @@ RELEASE="$(rpm -E %fedora)"
 
 # this installs a package from fedora repos
 rpm-ostree install screen
-
-# this would install a package from rpmfusion
-# rpm-ostree install vlc
-
-#### Example for enabling a System Unit File
-
-systemctl enable podman.socket
+rpm-ostree install neovim
+rpm-ostree install tmux
+rpm-ostree install hyprland
+rpm-ostree install waybar
+rpm-ostree install tlp
+rpm-ostree install steam
